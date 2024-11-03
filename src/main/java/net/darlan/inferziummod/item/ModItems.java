@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item KIKIMOND = registerItem("kikimond", new Item(new Item.Settings()));
+    public static final Item RAW_KIKIMOND = registerItem("raw_kikimond", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -21,6 +22,9 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(KIKIMOND);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(RAW_KIKIMOND);
         });
     }
 }

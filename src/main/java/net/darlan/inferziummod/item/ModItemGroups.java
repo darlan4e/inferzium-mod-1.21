@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.inferziummod.kikimond_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.KIKIMOND);
+                        entries.add(ModItems.RAW_KIKIMOND);
                         //entries.add(ModItems.[Имя предмета]); чтобы добавить в список еще предметы
                     }).build());
 
