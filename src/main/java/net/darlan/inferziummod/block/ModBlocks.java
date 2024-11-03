@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block KIKIMOND_BLOCK = registerBlock("kikimond_block",
             new Block(AbstractBlock.Settings.create().strength(4f, 3f)
-                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+                    .requiresTool().sounds(BlockSoundGroup.METAL)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
