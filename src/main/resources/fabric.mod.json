@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "inferziummod",
+	"version": "${version}",
+	"name": "Inferzium mod",
+	"description": "Inferzium Mod by darlan",
+	"authors": [
+		"darlan"
+	],
+	"contact": {
+		"homepage": "https://github.com/darlan4e",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/inferziummod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.darlan.inferziummod.InferziumMod"
+		],
+		"fabric-datagen": [
+			"net.darlan.inferziummod.InferziumModDataGenerator"
+		]
+	},
+	"mixins": [
+		"inferziummod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
