@@ -1,6 +1,7 @@
 package net.darlan.inferziummod;
 
 import net.darlan.inferziummod.block.ModBlocks;
+import net.darlan.inferziummod.item.ModItemGroups;
 import net.darlan.inferziummod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,8 @@ public class InferziumMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

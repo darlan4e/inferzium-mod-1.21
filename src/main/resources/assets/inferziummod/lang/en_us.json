@@ -1,5 +1,7 @@
 {
-  //"item.inferziummod.имя предмета": "отображаемое имя на англ"
   "item.inferziummod.kikimond": "Kikimond",
-  "block.inferziummod.kikimond_block": "Kikimond block"
+  "block.inferziummod.kikimond_block": "Kikimond block",
+
+  "itemgroup.inferziummod.kikimond_items":"Kikimond Items",
+  "itemgroup.inferziummod.kikimond_blocks":"Kikimond Blocks"
 }
