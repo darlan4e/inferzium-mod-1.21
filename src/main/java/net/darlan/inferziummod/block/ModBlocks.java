@@ -16,6 +16,9 @@ public class ModBlocks {
     public static final Block KIKIMOND_BLOCK = registerBlock("kikimond_block",
             new Block(AbstractBlock.Settings.create().strength(4f, 3f)
                     .requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block KIKIMOND_ORE = registerBlock("kikimond_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f, 3f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -32,6 +35,9 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(KIKIMOND_BLOCK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
+            entries.add(KIKIMOND_ORE);
         });
     }
 }

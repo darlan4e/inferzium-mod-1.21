@@ -1,7 +1,8 @@
 {
   "item.inferziummod.kikimond": "Kikimond",
   "item.inferziummod.raw_kikimond": "Raw Kikimond",
-  "block.inferziummod.kikimond_block": "Kikimond block",
+  "block.inferziummod.kikimond_block": "Kikimond Block",
+  "block.inferziummod.kikimond_ore": "Kikimond Ore",
 
   "itemgroup.inferziummod.kikimond_items":"Kikimond Items",
   "itemgroup.inferziummod.kikimond_blocks":"Kikimond Blocks"
