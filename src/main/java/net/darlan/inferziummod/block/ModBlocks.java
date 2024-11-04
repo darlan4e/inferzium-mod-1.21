@@ -13,7 +13,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
-
+//добавление блоков
 public class ModBlocks {
     public static final Block KIKIMOND_BLOCK = registerBlock("kikimond_block",
             new Block(AbstractBlock.Settings.create().strength(3f, 3f)
