@@ -6,12 +6,18 @@
 
   "block.inferziummod.magic_block": "Magic Block",
 
-  "item.inferziummod.sandwich": "Sandwich",
+  "item.inferziummod.sandwich": "§eSandwich§r",
   "item.inferziummod.chisel": "Chisel",
   "item.inferziummod.paladey_sword": "Paladey Sword",
   "item.inferziummod.stardust": "Stardust",
 
 
   "itemgroup.inferziummod.kikimond_items":"Kikimond Items",
-  "itemgroup.inferziummod.kikimond_blocks":"Kikimond Blocks"
+  "itemgroup.inferziummod.kikimond_blocks":"Kikimond Blocks",
+
+  "tooltip.inferziummod.magic_block.tooltip": "This block is very, VERY §9MAGICAL§r",
+
+  "tooltip.inferziummod.chisel": "Press §eSHIFT§r for more Information!",
+  "tooltip.inferziummod.chisel.shift_down": "This item chisels blocks into Bricks!",
+  "tooltip.inferziummod.sandwich.tooltip": "Eat it while no one is watching!!"
 }

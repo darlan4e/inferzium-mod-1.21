@@ -6,12 +6,18 @@
 
   "block.inferziummod.magic_block": "охуеть магия блок",
 
-  "item.inferziummod.sandwich": "Бутерброд с колбаской",
+  "item.inferziummod.sandwich": "§eБутерброд с колбаской§r",
   "item.inferziummod.chisel": "хз как называется",
   "item.inferziummod.paladey_sword": "Паладиевый меч",
   "item.inferziummod.stardust": "Звёздная пыль",
 
 
   "itemgroup.inferziummod.kikimond_items":"Предметы хуй",
-  "itemgroup.inferziummod.kikimond_blocks":"Блоки пизда"
+  "itemgroup.inferziummod.kikimond_blocks":"Блоки пизда",
+
+  "tooltip.inferziummod.magic_block.tooltip": "Этот блок очень, ОЧЕНЬ §9ВОЛШЕБНЫЙ§r",
+
+  "tooltip.inferziummod.chisel": "Нажми §eSHIFT§r для большей информации!",
+  "tooltip.inferziummod.chisel.shift_down": "Этот предмет превращает блоки в кирпичи!",
+  "tooltip.inferziummod.sandwich.tooltip": "Ешь это пока никто не видит!!"
 }
