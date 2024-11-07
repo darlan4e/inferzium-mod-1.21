@@ -4,6 +4,12 @@
   "block.inferziummod.kikimond_block": "Kikimond Block",
   "block.inferziummod.kikimond_ore": "Kikimond Ore",
 
+  "block.inferziummod.magic_block": "Magic Block",
+
+  "item.inferziummod.chisel": "Chisel",
+  "item.inferziummod.paladey_sword": "Paladey Sword",
+
+
   "itemgroup.inferziummod.kikimond_items":"Kikimond Items",
   "itemgroup.inferziummod.kikimond_blocks":"Kikimond Blocks"
 }

@@ -1,6 +1,7 @@
 package net.darlan.inferziummod.block;
 
 import net.darlan.inferziummod.InferziumMod;
+import net.darlan.inferziummod.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -22,6 +23,10 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(2f, 2f)
                             .requiresTool()));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

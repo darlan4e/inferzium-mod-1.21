@@ -18,6 +18,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.KIKIMOND);
                         entries.add(ModItems.RAW_KIKIMOND);
+                        entries.add(ModItems.CHISEL);
+                        //entries.add(ModItems.PALADEY_SWORD);
                         //entries.add(ModItems.[Имя предмета]); чтобы добавить в список еще предметы
                     }).build());
 
@@ -28,6 +30,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.KIKIMOND_BLOCK);
                         entries.add(ModBlocks.KIKIMOND_ORE);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                         //entries.add(ModBlocks.[Имя предмета]); чтобы добавить в список еще блоки
                     }).build());
 

@@ -1,9 +1,11 @@
 package net.darlan.inferziummod.item;
 
 import net.darlan.inferziummod.InferziumMod;
+import net.darlan.inferziummod.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.ToolItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -11,6 +13,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item KIKIMOND = registerItem("kikimond", new Item(new Item.Settings()));
     public static final Item RAW_KIKIMOND = registerItem("raw_kikimond", new Item(new Item.Settings()));
+
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(64)));
 
 
     private static Item registerItem(String name, Item item) {
@@ -22,9 +26,8 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(KIKIMOND);
-        });
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(RAW_KIKIMOND);
+            //entries.add(PALADEY_SWORD);
         });
     }
 }
