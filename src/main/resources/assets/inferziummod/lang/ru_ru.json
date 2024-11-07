@@ -1,6 +1,6 @@
 {
   "item.inferziummod.kikimond": "Кикимонд",
-  "item.inferziummod.raw_kikimond": "Сырой кикимонд",
+  "item.inferziummod.raw_kikimond": "Рудный кикимонд",
   "block.inferziummod.kikimond_block": "Блок Кикимонда",
   "block.inferziummod.kikimond_ore": "Кикимондовая руда",
 
@@ -9,6 +9,7 @@
   "item.inferziummod.sandwich": "Бутерброд с колбаской",
   "item.inferziummod.chisel": "хз как называется",
   "item.inferziummod.paladey_sword": "Паладиевый меч",
+  "item.inferziummod.stardust": "Звёздная пыль",
 
 
   "itemgroup.inferziummod.kikimond_items":"Предметы хуй",

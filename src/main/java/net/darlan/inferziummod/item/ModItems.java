@@ -16,6 +16,7 @@ public class ModItems {
 
     public static final Item SANDWICH = registerItem("sandwich", new Item(new Item.Settings().food(ModFoodComponents.SANDWICH)));
 
+    public static final Item STARDUST = registerItem("stardust", new Item(new Item.Settings()));
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(64)));
 
 
