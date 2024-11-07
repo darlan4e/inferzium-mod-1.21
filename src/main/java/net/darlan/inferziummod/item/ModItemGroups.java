@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.KIKIMOND);
                         entries.add(ModItems.RAW_KIKIMOND);
                         entries.add(ModItems.CHISEL);
+                        entries.add(ModItems.SANDWICH);
                         //entries.add(ModItems.PALADEY_SWORD);
                         //entries.add(ModItems.[Имя предмета]); чтобы добавить в список еще предметы
                     }).build());
